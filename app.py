@@ -283,7 +283,7 @@ app.layout = html.Div([
             dbc.Col(html.Div(
                         id="banner",
                         className="banner",
-                        children=[html.Img(src='https://freepikpsd.com/file/2019/11/graph-icon-transparent-png-images-blue-.png', id='image', n_clicks=0),
+                        children=[html.Img(src='assets/logo.png', id='image', n_clicks=0),
                         html.H1("Graph Dash.ly", style={'font-size':'45px'})],
                     ), width=9),
             dbc.Col(html.Div(
