@@ -261,7 +261,7 @@ def newFunc(submit_n_clicks, children):
         ]
     ), ['Choose a File'],['Choose a File'], ['Choose a File'], "", "Scatter", "Graph", "", "", "none", 5, html.Div(), {}, True, True, True
 
-app.title = "My Website"
+app.title = "Graph Dashly"
 
 
 app.layout = html.Div([
