@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Acumin;
+    font-weight: bold;
+    src: url("Acumin-BdPro.otf") format("opentype");
+}
+
+#app-container {
+    width: 100%;
+    max-width: none;
+}
+
+body {
+    background-color: #E5E4E2;
+    color: #333333;
+    font-size: 15px;
+    margin: 0px;
+}
+
+hr {
+    margin: 0.3rem 0rem;
+}
+
+.banner {
+    height: 7rem;
+    background-color: #2b2828;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    color: #E5E4E2;
+}
+
+.banner Img {
+    position: relative;
+    height: 10rem;
+    width: auto;
+    margin-left: 10px;
+}
+
+.accordion-button {
+    font-size: 20px;
+    font-family: Acumin, "Helvetica Neue", sans-serif;
+}
+
+H1 {
+    padding-top: 2rem;
+    padding-left: 0.5rem;
+}
+
+H5 {
+    color: #2c8cff;
+    font-weight: 300;
+}
+
+H5, H3 {
+    font-family: Acumin, "Helvetica Neue", sans-serif;
+}
+
+label {
+    color: #222b37;
+    font-weight: bold;
+    font-family: Acumin, "Helvetica Neue", sans-serif;
+}
+
+#sign_in_button {
+    background-color: #4682B4;
+}
+
+
+#upload-data {
+    margin-top: 20px;
+}
+
+#save_query, #textarea-state-example-button {
+    font-size: 13px;
+    height: 30px;
+}
+
+#the_graph {
+    margin-top: 10px;
+}
+
+#left-column {
+    margin-top: 20px;
+    padding: 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 5.5rem);
+}
+
+#right-column {
+    background-color: #696969;
+    padding: 0rem 2rem;
+    min-height: calc(100vh - 5.5rem);
+}
+
+
+/*
+  ##Device = Most of the Smartphones Mobiles / ipad (Portrait)
+  */
+
+@media only screen and (max-width: 750px), screen and (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        font-size: 13px;
+        margin: 0px;
+    }
+
+    .banner {
+        height: 6rem;
+    }
+
+    h5 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    #intro {
+        margin: 10px 0px;
+    }
+
+    #left-column, #right-column {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #right-column {
+        padding: 0rem 0.5rem;
+    }
+
+    #reset-btn-outer {
+        text-align: center;
+    }
+
+
+    #header {
+        display: none;
+    }
+
+    #wait_time_table:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    #patient_volume_card > b, #wait_time_card > b {
+        line-height: 2.5;
+        font-size: 13px;
+        display: block;
+        text-align: center;
+    }
+
+    .annotation-text {
+        font-size: 0.8rem !important;
+    }
+
+}
