@@ -1,4 +1,4 @@
-# How to deploy a simple Plotly Dash app on Heroku
+# Graph Dashly
 
 * You can view the finished app on [Heroku](https://flying-dog.herokuapp.com/).
 * Take a moment to read my [Medium post about how to deploy this app](https://austinlasseter.medium.com/how-to-deploy-a-simple-plotly-dash-app-to-heroku-622a2216eb73)
