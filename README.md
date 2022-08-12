@@ -7,3 +7,5 @@
 
 ### Technologies
 * The graphing elements and interface were implemented using Python and its Dash and Plotly libraries. Utilized the dash-auth package for account setup. User information and data stored within SQLite database.
+
+![bar sample](./assets/colored_bar)
