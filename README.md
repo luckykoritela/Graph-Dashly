@@ -8,6 +8,5 @@
 ### Technologies
 * The graphing elements and interface were implemented using Python and its Dash and Plotly libraries. Utilized the dash-auth package for account setup. User information and data stored within SQLite database.
 
-<img src="./assets/colored_bar.png" width="500" height="500">
-<img src="./assets/black_line.png" width="500" height="500">
-<img src="./assets/white_scatter.png" width="500" height="500">
+<img src="./assets/colored_bar.png" width="500" height="300"> <img src="./assets/black_line.png" width="400" height="500">
+<img src="./assets/white_scatter.png" width="200" height="500">
