@@ -10,5 +10,5 @@
 
 
 
-<img src="./assets/colored_bar.png" width="500" height="300">     <img src="./assets/black_line.png" width="500" height="300">
-<img src="./assets/white_scatter.png" width="500" height="300">    <img src="./assets/multi_bar.png" width="500" height="300">
+<img src="./assets/colored_bar.png" width="400" height="300">     <img src="./assets/black_line.png" width="400" height="300">
+<img src="./assets/white_scatter.png" width="400" height="300">    <img src="./assets/multi_bar.png" width="400" height="300">
