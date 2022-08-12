@@ -9,6 +9,6 @@
 * The graphing elements and interface were implemented using Python and its Dash and Plotly libraries. Utilized the dash-auth package for account setup. User information and data stored within SQLite database.
 
 
-
-<img src="./assets/colored_bar.png" width="400" height="300">     <img src="./assets/black_line.png" width="400" height="300">
-<img src="./assets/white_scatter.png" width="400" height="300">    <img src="./assets/multi_bar.png" width="400" height="300">
+### Examples
+<img src="./assets/colored_bar.png" width="400" height="250">     <img src="./assets/black_line.png" width="400" height="250">
+<img src="./assets/white_scatter.png" width="400" height="250">    <img src="./assets/multi_bar.png" width="400" height="250">
